@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer, main{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url("Imagenes/fondo.jpg");
+    height: 30vh;
+    background-size: cover;
+    background-position: right;
+}
+
+header div{
+    padding-top: 5vh;
+}
+
+main{
+    background-color: #84a98c;
+    color: #2f3e46;
+}
+
+main h2{
+    padding-left: 2vh;
+}
+
+footer{
+    background-color: #2f3e46;
+    color: #cad2c5;
+}
+
+footer p {
+    padding-left: 2vh;
+}
+
+img {
+    width: 40vh;
+    padding: 1px;
+    border: 3px solid #2f3e46;
+}
+
+.box1 {
+    display: flex;
+    margin: 2vh;
+    color: #2f3e46;
+}
+
+.box2 {
+    padding-left: 2vh;
+    color: #cad2c5;
+}
+
+div {
+    padding-left: 15vh;
+}
+
+button:hover {
+    background-color: #84a98c;
+}
